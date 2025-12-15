@@ -2,6 +2,5 @@ services:
   - type: web
     name: custom-blog-page
     runtime: static
-    plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: out
