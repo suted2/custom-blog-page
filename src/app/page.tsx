@@ -15,8 +15,9 @@ export default function Home() {
           Mingyu&apos;s Space
         </h1>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Software Engineer | Problem Solver | Tech Enthusiast <br/>
-          Sharing knowledge and building cool things.
+          Python Specialist | Automation Expert | LLM Enthusiast <br/>
+          Engineer focused on Business Value. <br/>
+          Automating the Unimaginable.
         </p>
         <div className="flex justify-center gap-4">
             <Button asChild size="lg">
