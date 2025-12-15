@@ -36,7 +36,7 @@ export function Navbar() {
               Blog
             </Link>
              <Link
-              href="https://github.com/mingyu"
+              href="https://github.com/suted2"
               className={cn(
                 "transition-colors hover:text-foreground/80 text-foreground/60"
               )}
