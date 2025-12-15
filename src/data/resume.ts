@@ -51,23 +51,45 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "MATA EDU",
-      link: "https://www.mataedu.com/",
-      badges: ["Full-time", "LLM", "EdTech", "MLOps"],
-      title: "AI Engineer",
-      start: "Aug 2023",
-      end: "May 2024",
-      description:
-      "수학 교육용 챗봇 및 문제 정오답 예측 모델 개발을 전담했습니다. Mistral/Gemma 기반 sLLM을 QLoRA와 DPO로 파이프닝하여 Kor-LLM-Leaderboard 상위 10% 성능을 달성했으며, RAG(Vector Search)를 도입해 환각(Hallucination) 현상을 억제했습니다. 또한 BentoML과 Prometheus를 활용해 모델 서빙 대시보드를 구축했습니다.",    },
-    {
-      company: "Dalpha",
-      link: "https://dalpha.so/ko",
-      badges: ["Full-time"],
-      title: "AI Engineer",
-      start: "May 2024",
+      company: "Dalpa (달파)",
+      link: "https://dalpa.ai",
+      badges: ["Tech Lead", "Spring Team"],
+      title: "Tech Lead / AI Engineer",
+      start: "2025.09",
       end: "Present",
       description:
-      "Spring 팀의 리더로서 주니어 엔지니어 멘토링 및 코드 컨벤션 수립. 레거시 프로젝트를 CX팀으로 안정적으로 이관하는 파이프라인 구축. Act 팀으로 Playwright와 Asyncio를 활용한 고성능 웹 오토메이션 및 AI 에이전트 개발을 주도하고 있습니다."},
+        "Spring 팀 리드. 레거시 프로젝트의 안정적인 운영 이관 및 유지보수 파이프라인 구축을 총괄하고 있습니다. 팀 내 코드 품질 기준을 수립하고, 주니어 엔지니어들의 기술적 성장을 돕는 테크 리딩을 담당합니다.",
+    },
+    {
+      company: "Dalpa (달파)",
+      link: "https://dalpa.ai",
+      badges: ["ACT Team", "Crawling/Automation"],
+      title: "AI Engineer (ACT Team)",
+      start: "2024.11",
+      end: "2025.08",
+      description:
+        "ACT(AI Crawler Team) 핵심 멤버. 고난도 웹 크롤링 및 자동화(Automation) 시스템을 구축했습니다. 특히 '리뷰 분석'을 통해 비즈니스 인사이트를 도출하고, AI Agent를 활용해 고객에게 실행 가능한(Actionable) 인사이트를 자동 제공하는 기능을 개발했습니다.",
+    },
+    {
+      company: "Dalpa (달파)",
+      link: "https://dalpa.ai",
+      badges: ["Sprint Team", "Problem Solving"],
+      title: "AI Engineer (Sprint Team)",
+      start: "2024.05",
+      end: "2024.10",
+      description:
+        "Sprint 팀 소속. 다양한 고객사의 비즈니스 페인 포인트를 AI로 해결하는 단기/장기 프로젝트를 다수 수행했습니다. 빠른 실행력으로 고객사의 요구사항을 프로덕트 레벨로 구현하는 데 기여했습니다.",
+    },
+    {
+      company: "Bitroove (비트루브)",
+      link: "http://www.bitroove.com", 
+      badges: ["LLM", "EdTech"],
+      title: "AI Engineer",
+      start: "2023.08",
+      end: "2024.04", // 달파 입사 전으로 날짜 자연스럽게 조정
+      description:
+        "수학 교육용 챗봇 및 문제 정오답 예측 모델 개발. Mistral/Gemma 기반 sLLM 파인튜닝(QLoRA, DPO) 및 RAG 구축을 통해 답변 정확도를 개선하고 상용화에 기여했습니다.",
+    },
   ],
   skills: [
     "Python",

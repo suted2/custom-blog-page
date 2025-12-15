@@ -23,7 +23,7 @@ export default function Home() {
                 <Link href="/about">About Me</Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
-                <Link href="https://github.com">GitHub</Link>
+                <Link href="https://github.com/suted2">GitHub</Link>
             </Button>
         </div>
       </section>
