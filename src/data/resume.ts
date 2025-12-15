@@ -53,12 +53,12 @@ export const RESUME_DATA = {
     {
       company: "Dalpa (달파)",
       link: "https://dalpa.ai",
-      badges: ["Tech Lead", "Spring Team"],
-      title: "Tech Lead / AI Engineer",
+      badges: ["Engineering Lead", "Spring Team"],
+      title: "Engineering Lead / AI Engineer",
       start: "2025.09",
       end: "Present",
       description:
-        "Spring 팀 리드. 레거시 프로젝트의 안정적인 운영 이관 및 유지보수 파이프라인 구축을 총괄하고 있습니다. 팀 내 코드 품질 기준을 수립하고, 주니어 엔지니어들의 기술적 성장을 돕는 테크 리딩을 담당합니다.",
+        "Spring 팀의 테크 리드. 레거시 프로젝트의 안정적인 운영 이관 및 유지보수 파이프라인 구축을 총괄하고 있습니다. 팀 내 코드 품질 기준을 수립하고, 주니어 엔지니어들의 기술적 성장을 돕는 테크 리딩을 담당합니다.",
     },
     {
       company: "Dalpa (달파)",

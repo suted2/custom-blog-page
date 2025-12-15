@@ -15,9 +15,8 @@ export default function Home() {
           Mingyu&apos;s Space
         </h1>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Python Specialist | Automation Expert | LLM Enthusiast <br/>
-          Engineer focused on Business Value. <br/>
-          Automating the Unimaginable.
+          웹 자동화와 LLM 에이전트, 시스템 안정화에 집중합니다 <br/>
+          비즈니스의 난제를 해결하는 신뢰할 수 있는 기술 솔루션을 만듭니다. <br/>
         </p>
         <div className="flex justify-center gap-4">
             <Button asChild size="lg">
