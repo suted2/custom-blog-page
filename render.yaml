@@ -1,7 +1,7 @@
 services:
-  - type: site
+  - type: web
     name: custom-blog-page
-    env: static
+    runtime: static
     plan: free
     buildCommand: npm install && npm run build
-    publishDir: out
+    staticPublishPath: out
