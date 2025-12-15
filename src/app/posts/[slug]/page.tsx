@@ -14,11 +14,11 @@ export async function generateStaticParams() {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  
+
   let post;
   try {
     post = getPostData(slug);
-  } catch (error) {
+  } catch {
     notFound();
   }
 
@@ -31,11 +31,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             Back to Home
           </Link>
         </Button>
-        
+
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4">
           {post.title}
         </h1>
-        
+
         <div className="flex items-center gap-4 text-muted-foreground mb-8">
           <time dateTime={post.date}>{post.date}</time>
           <span>•</span>

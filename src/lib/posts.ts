@@ -18,7 +18,7 @@ export function getSortedPostsData(): Post[] {
   if (!fs.existsSync(postsDirectory)) {
     return [];
   }
-  
+
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames.map((fileName) => {
     // Remove ".mdx" from file name to get id

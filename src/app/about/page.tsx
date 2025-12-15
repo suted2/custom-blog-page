@@ -21,7 +21,7 @@ export default function AboutPage() {
             Back to Home
           </Link>
       </Button>
-      
+
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -75,7 +75,7 @@ export default function AboutPage() {
                   <a href={social.url}>
                     <span className="sr-only">{social.name}</span>
                      {/* Icon handling can be improved later, using simplified text for now if icon component not available directly */}
-                    <span className="text-xs font-bold">{social.name[0]}</span> 
+                    <span className="text-xs font-bold">{social.name[0]}</span>
                   </a>
                 </Button>
               ))}

@@ -7,7 +7,7 @@ export const RESUME_DATA = {
     "Software Engineer focused on building products with extra attention to detail",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL.",
-  avatarUrl: "https://github.com/shadcn.png", 
+  avatarUrl: "https://github.com/shadcn.png",
   personalWebsiteUrl: "https://mingyu.dev",
   contact: {
     email: "mingyu@example.com",

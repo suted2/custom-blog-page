@@ -13,7 +13,7 @@ export function Navbar() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <span className="font-bold sm:inline-block">
-              Mingyu's Space
+              Mingyu&apos;s Space
             </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">

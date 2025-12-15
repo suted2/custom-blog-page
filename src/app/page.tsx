@@ -12,7 +12,7 @@ export default function Home() {
     <div className="container mx-auto max-w-5xl py-12 px-6">
       <section className="mb-16 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-          Mingyu's Space
+          Mingyu&apos;s Space
         </h1>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Software Engineer | Problem Solver | Tech Enthusiast <br/>
@@ -37,7 +37,7 @@ export default function Home() {
                 View all posts &rarr;
             </Link>
         </div>
-        
+
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {allPostsData.map(({ slug, date, title, description, tags }) => (
             <Link key={slug} href={`/posts/${slug}`} className="block group">
