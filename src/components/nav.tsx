@@ -44,6 +44,15 @@ export function Navbar() {
             >
               Projects
             </Link>
+            <Link
+              href="/experience"
+              className={cn(
+                "transition-colors hover:text-foreground/80",
+                pathname === "/experience" ? "text-foreground" : "text-foreground/60"
+              )}
+            >
+              Experience
+            </Link>
              <Link
               href="https://github.com/mingyu"
               className={cn(
